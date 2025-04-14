@@ -1,0 +1,11 @@
+/* Barra de nabegación */
+.navbar {
+    padding: 2rem;
+    background-color: white;
+}
+
+.navbar-colapse {
+    align-items: center;
+    justify-content: space-between;
+}
+/* Título de la barra de navegación */
