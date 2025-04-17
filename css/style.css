@@ -1,6 +1,53 @@
 /* Carrusel */
 #menuCarousel .carousel-item .card .card-img-top {
-    height: 250px; 
-    object-fit: cover;
-    object-position: center; 
-  }
+  height: 300px; 
+  object-fit: cover;
+  object-position: center; 
+}
+#menuCarousel .carousel-item .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#menuCarousel .carousel-item .card .card-body {
+  flex-grow: 1;
+}
+#menuCarousel .carousel-item .card .card-title {
+  font-size: 1.5rem; 
+  font-weight: bold; 
+}
+#menuCarousel .carousel-control-prev,#menuCarousel .carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 40px; 
+  height: 40px;
+  top: 50%; 
+  transform: translateY(-50%);
+  border-radius: 50%; 
+}
+#menuCarousel .carousel-control-prev {
+  left: 15px; 
+}
+#menuCarousel .carousel-control-next {
+  right: 15px; 
+}
+
+/* Sucursales */
+
+#sucursales .row > .col-lg-4.col-md-6 {
+  display: flex; 
+  flex-direction: column; 
+}
+
+#sucursales .row > .col-lg-4.col-md-6 .ratio {
+  margin-top: auto; 
+}
+
+/* Opcional: Asegurar que el botón también se alinee bien */
+/* Si el botón no queda pegado al mapa, puedes quitar el comentario de la regla anterior */
+/* o aplicar el margen al botón en su lugar si prefieres: */
+/*
+#sucursales .row > .col-lg-4.col-md-6 .btn {
+  margin-top: auto; /* Empuja solo el botón hacia abajo */
+/* }
+*/
